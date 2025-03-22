@@ -48,6 +48,45 @@ if details:
     print(details)
 ```
 
+### Get Movie Suggestions 🎥🔄🎭
+```python
+movie_id = 10  # Replace with a valid movie ID
+suggestions = yts.movie_suggestions(movie_id)
+if suggestions:
+    print(suggestions)
+```
+
+### Get Movie Comments 💬🎞️📝
+```python
+movie_id = 10  # Replace with a valid movie ID
+comments = yts.movie_comments(movie_id)
+if comments:
+    print(comments)
+```
+
+### Get Movie Reviews 📝🌟🎬
+```python
+movie_id = 10  # Replace with a valid movie ID
+reviews = yts.movie_reviews(movie_id)
+if reviews:
+    print(reviews)
+```
+
+### Get Movie Parental Guides 🚸🔍📜
+```python
+movie_id = 10  # Replace with a valid movie ID
+parental_guides = yts.movie_parental_guides(movie_id)
+if parental_guides:
+    print(parental_guides)
+```
+
+### Get Upcoming Movies 🎬📅🔜
+```python
+upcoming_movies = yts.movie_upcoming()
+if upcoming_movies:
+    print(upcoming_movies)
+```
+
 ### Generate Magnet URL 🧲📡⚡
 ```python
 torrent_hash = "YOUR_TORRENT_HASH_HERE"
@@ -68,5 +107,4 @@ This project is open-source and available under the MIT License. 🏛️🔓📖
 
 ## Disclaimer ⚠️📢📝
 This project is for educational purposes only. Make sure to comply with copyright laws when using the YTS API. 🚫📜⚖️
-
 
